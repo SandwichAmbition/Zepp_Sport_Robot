@@ -3,7 +3,7 @@ name: zepp-sport-robot
 on:
   workflow_dispatch:
   schedule:
-    - cron: '08 15 * * *'
+    - cron: '15 02 * * *'
 
 jobs:
   run-python-script:
